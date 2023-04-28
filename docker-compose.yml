@@ -1,0 +1,36 @@
+version: '3.4'
+
+services:
+  mangoweb:
+    image: ${DOCKER_REGISTRY-}mangoweb
+    build:
+      context: .
+      dockerfile: MangoWeb\Dockerfile
+
+  mango.services.identity:
+    image: ${DOCKER_REGISTRY-}mangoservicesidentity
+    build:
+      context: .
+      dockerfile: Mango.Services.Identity\Dockerfile
+
+
+  mango.gatewaysolution:
+    image: ${DOCKER_REGISTRY-}mangogatewaysolution
+    build:
+      context: .
+      dockerfile: Mango.GatewaySolution\Dockerfile
+
+
+  mango.services.productapi:
+    image: ${DOCKER_REGISTRY-}mangoservicesproductapi
+    build:
+      context: .
+      dockerfile: Mango.Services.API\Dockerfile
+
+
+  mango.services.shoppingcartapi:
+    image: ${DOCKER_REGISTRY-}mangoservicesshoppingcartapi
+    build:
+      context: .
+      dockerfile: Mango.Services.ShoppingCartApi\Dockerfile
+

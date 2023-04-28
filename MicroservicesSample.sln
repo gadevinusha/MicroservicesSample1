@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{88309A42-0288-4B7F-ADA0-15CD2F45AAEC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MangoWeb", "MangoWeb\MangoWeb.csproj", "{20C2E405-3568-4C6F-927E-010C110D4E62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{C625DA01-6AA9-453B-8B84-1E280755E07C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Services.ProductAPI", "Mango.Services.API\Mango.Services.ProductAPI.csproj", "{20C6772F-75CA-4BD8-A4F8-CFD9EB6A57E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Services.Identity", "Mango.Services.Identity\Mango.Services.Identity.csproj", "{3660B73D-B8FC-4640-A6AA-58F6698A526B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Services.ShoppingCartApi", "Mango.Services.ShoppingCartApi\Mango.Services.ShoppingCartApi.csproj", "{CA388E5A-55A2-42F8-9C35-ED4009864B52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{F3BF9B7E-F65A-4BA2-A856-8E17B2472848}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.GatewaySolution", "Mango.GatewaySolution\Mango.GatewaySolution.csproj", "{6593F132-E336-4252-98D6-97D7DF29FC4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20C2E405-3568-4C6F-927E-010C110D4E62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C2E405-3568-4C6F-927E-010C110D4E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20C2E405-3568-4C6F-927E-010C110D4E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20C2E405-3568-4C6F-927E-010C110D4E62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20C6772F-75CA-4BD8-A4F8-CFD9EB6A57E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C6772F-75CA-4BD8-A4F8-CFD9EB6A57E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20C6772F-75CA-4BD8-A4F8-CFD9EB6A57E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20C6772F-75CA-4BD8-A4F8-CFD9EB6A57E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3660B73D-B8FC-4640-A6AA-58F6698A526B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3660B73D-B8FC-4640-A6AA-58F6698A526B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3660B73D-B8FC-4640-A6AA-58F6698A526B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3660B73D-B8FC-4640-A6AA-58F6698A526B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA388E5A-55A2-42F8-9C35-ED4009864B52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA388E5A-55A2-42F8-9C35-ED4009864B52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA388E5A-55A2-42F8-9C35-ED4009864B52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA388E5A-55A2-42F8-9C35-ED4009864B52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6593F132-E336-4252-98D6-97D7DF29FC4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6593F132-E336-4252-98D6-97D7DF29FC4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6593F132-E336-4252-98D6-97D7DF29FC4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6593F132-E336-4252-98D6-97D7DF29FC4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20C2E405-3568-4C6F-927E-010C110D4E62} = {88309A42-0288-4B7F-ADA0-15CD2F45AAEC}
+		{20C6772F-75CA-4BD8-A4F8-CFD9EB6A57E7} = {C625DA01-6AA9-453B-8B84-1E280755E07C}
+		{3660B73D-B8FC-4640-A6AA-58F6698A526B} = {C625DA01-6AA9-453B-8B84-1E280755E07C}
+		{CA388E5A-55A2-42F8-9C35-ED4009864B52} = {C625DA01-6AA9-453B-8B84-1E280755E07C}
+		{6593F132-E336-4252-98D6-97D7DF29FC4E} = {F3BF9B7E-F65A-4BA2-A856-8E17B2472848}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C9AE2D3-71D8-4D97-88C3-796CD7124784}
+	EndGlobalSection
+EndGlobal
