@@ -20,7 +20,7 @@ namespace Mango.Services.ProductAPI.Controllers
             this._response = new ResponseDto();
         }
         [HttpGet]
-        [Authorize]
+        //[Authorize]
         public async Task<object> Get()
         {
             try
@@ -40,7 +40,7 @@ namespace Mango.Services.ProductAPI.Controllers
 
         [HttpGet]
         [Route("{id}")]
-        [Authorize]
+      //  [Authorize]
         public async Task<object> Get(int id)
         {
             try
@@ -58,7 +58,7 @@ namespace Mango.Services.ProductAPI.Controllers
             // return View();
         }
         [HttpPost]
-        [Authorize]
+       // [Authorize]
         public async Task<object> Post([FromBody]ProductDto productDto)
         {
             try
@@ -77,7 +77,7 @@ namespace Mango.Services.ProductAPI.Controllers
         }
 
         [HttpPut]
-        [Authorize]
+     //   [Authorize]
         public async Task<object> Put([FromBody] ProductDto productDto)
         {
             try
@@ -97,7 +97,7 @@ namespace Mango.Services.ProductAPI.Controllers
 
         [HttpDelete]
         [Route("{id}")]
-        [Authorize(Roles="Admin")]
+       // [Authorize(Roles="Admin")]
         public async Task<object> Delete(int id)
         {
             try
